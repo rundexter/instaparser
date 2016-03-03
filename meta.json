@@ -1,0 +1,72 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [
+        {
+            "id": "url",
+            "title": "URL",
+            "type": "string"
+        }
+    ],
+    //Required. Outputs the module emits.
+    "outputs": [
+        {
+            "id": "url",
+            "title": "Canonical URL",
+            "type": "string"
+        },
+        {
+            "id": "site_title",
+            "title": "Site Title",
+            "type": "string"
+        },
+        {
+            "id": "title",
+            "title": "Article Title",
+            "type": "string"
+        },
+        {
+            "id": "author",
+            "title": "Author Name",
+            "type": "string"
+        },
+        {
+            "id": "pubtime",
+            "title": "Published Time",
+            "type": "string"
+        },
+        {
+            "id": "summary",
+            "title": "Article Description",
+            "type": "string"
+        },
+        {
+            "id": "body",
+            "title": "HTML Body Content",
+            "type": "string"
+        },
+        {
+            "id": "words",
+            "title": "Number of Words",
+            "type": "integer"
+        },
+        {
+            "id": "thumbnail",
+            "title": "Thumbnail Image",
+            "type": "string"
+        },
+        {
+            "id": "images",
+            "title": "Array of Images",
+            "type": "array"
+        },
+        {
+            "id": "videos",
+            "title": "Array of Embedded Videos",
+            "type": "array"
+        }
+    ],
+    "title": "Instaparser Article Parser" /* Required.A display name for the module */
+}
