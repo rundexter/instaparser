@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Extract metadata and article body content from a given URL.",
   "main": "index.js",
-  "author": "Brian Donohue",
+  "author": "Run Dexter, Inc",
   "license": "MIT",
   "private": true,
   "dependencies": {
