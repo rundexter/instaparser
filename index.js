@@ -41,7 +41,7 @@ module.exports = {
     , process: function(step, dexter, api_key) {
         var self     = this
           , urls     = step.input('url')
-          , baseUrl  = 'https://www.instaparser.com/api/parse?api_key='+api_key+'&'
+          , baseUrl  = 'https://www.instaparser.com/api/1/article?api_key='+api_key+'&'
           , promises = []
           , api_ep 
         ;

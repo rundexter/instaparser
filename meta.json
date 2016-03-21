@@ -18,32 +18,32 @@
             "type": "string"
         },
         {
-            "id": "site_title",
-            "title": "Site Title",
+            "id": "site_name",
+            "title": "Site Name",
             "type": "string"
         },
         {
             "id": "title",
-            "title": "Article Title",
+            "title": "Title",
             "type": "string"
         },
         {
             "id": "author",
-            "title": "Author Name",
+            "title": "Author",
             "type": "string"
         },
         {
-            "id": "pubtime",
-            "title": "Published Time",
+            "id": "date",
+            "title": "Publish Time",
             "type": "string"
         },
         {
-            "id": "summary",
+            "id": "description",
             "title": "Article Description",
             "type": "string"
         },
         {
-            "id": "body",
+            "id": "html",
             "title": "HTML Body Content",
             "type": "string"
         },
