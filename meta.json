@@ -1,6 +1,6 @@
 {
     "title": "Instaparser",
-    "icon": "dex-instapaper",
+    "icon": "dex-instaparser",
     "inputs": [{
         "id": "url",
         "title": "URL"
