@@ -1,72 +1,33 @@
-/*
- * Metadata describing the module operation
- */
 {
-    //Required. Inputs the module expects.
-    "inputs": [
-        {
-            "id": "url",
-            "title": "URL",
-            "type": "string"
-        }
-    ],
-    //Required. Outputs the module emits.
-    "outputs": [
-        {
-            "id": "url",
-            "title": "Canonical URL",
-            "type": "string"
-        },
-        {
-            "id": "site_name",
-            "title": "Site Name",
-            "type": "string"
-        },
-        {
-            "id": "title",
-            "title": "Title",
-            "type": "string"
-        },
-        {
-            "id": "author",
-            "title": "Author",
-            "type": "string"
-        },
-        {
-            "id": "date",
-            "title": "Publish Time",
-            "type": "string"
-        },
-        {
-            "id": "description",
-            "title": "Article Description",
-            "type": "string"
-        },
-        {
-            "id": "html",
-            "title": "HTML Body Content",
-            "type": "string"
-        },
-        {
-            "id": "words",
-            "title": "Number of Words",
-            "type": "integer"
-        },
-        {
-            "id": "thumbnail",
-            "title": "Thumbnail Image",
-            "type": "string"
-        },
-        {
-            "id": "images",
-            "title": "Array of Images",
-            "type": "array"
-        },
-        {
-            "id": "videos",
-            "title": "Array of Embedded Videos",
-            "type": "array"
-        }
-    ],
-    "title": "Instaparser Article Parser" /* Required.A display name for the module */
+    "title": "Instaparser",
+    "icon": "dex-instapaper",
+    "inputs": [{
+        "id": "url",
+        "title": "URL"
+    }],
+    "outputs": [{
+        "id": "url",
+        "title": "Canonical URL"
+    }, {
+        "id": "site_name",
+        "title": "Site Name"
+    }, {
+        "id": "title",
+        "title": "Title"
+    }, {
+        "id": "author",
+        "title": "Author"
+    }, {
+        "id": "description",
+        "title": "Description"
+    }, {
+        "id": "html",
+        "title": "HTML Content"
+    }, {
+        "id": "words",
+        "title": "Word Count"
+    }, {
+        "id": "thumbnail",
+        "title": "Thumbnail"
+    }]
 }
